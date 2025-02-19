@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "trendek",
+    "collectionId": "ddec312e-9889-4632-8040-8a9ecaa7ad3c",
+    "dateExported": "2025-02-14T11:47:30.612Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "235ca773-f19b-4fb3-96df-539d68485a60",
+            "colId": "ddec312e-9889-4632-8040-8a9ecaa7ad3c",
+            "containerId": "",
+            "name": "get categid",
+            "url": "localhost:3000/api/trends/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-14T11:06:24.361Z",
+            "modified": "2025-02-14T11:06:28.093Z",
+            "headers": []
+        },
+        {
+            "_id": "633f5742-6461-4247-a32f-d167855e9051",
+            "colId": "ddec312e-9889-4632-8040-8a9ecaa7ad3c",
+            "containerId": "",
+            "name": "get keyword",
+            "url": "localhost:3000/api/search/mes",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-14T11:06:44.633Z",
+            "modified": "2025-02-14T11:35:33.467Z",
+            "headers": []
+        },
+        {
+            "_id": "53b3a4f6-1a2a-4280-a578-96ef222dcf08",
+            "colId": "ddec312e-9889-4632-8040-8a9ecaa7ad3c",
+            "containerId": "",
+            "name": "get categories",
+            "url": "localhost:3000/api/categories",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-02-14T11:16:08.282Z",
+            "modified": "2025-02-14T11:17:18.674Z",
+            "headers": []
+        },
+        {
+            "_id": "803caa21-2548-4be2-a851-7b1c79d7c649",
+            "colId": "ddec312e-9889-4632-8040-8a9ecaa7ad3c",
+            "containerId": "",
+            "name": "post",
+            "url": "localhost:3000/api/categories",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2025-02-14T11:25:20.217Z",
+            "modified": "2025-02-14T11:40:02.919Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Teszt trend\",\n  \"description\": \"teszt leírás\",\n  \"categId\": 1,\n  \"impact\": \"Közepes\",\n  \"year\": 2025,\n  \"imageUrl\": \"https://res.cloudinary.com/myblog2024/image/upload/v1738936280/trends/5g-06-2_uwb306.jpg\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a52ba6a3-7e53-4157-b58c-fa3a4fc17fbd",
+            "colId": "ddec312e-9889-4632-8040-8a9ecaa7ad3c",
+            "containerId": "",
+            "name": "put",
+            "url": "localhost:3000/api/impact/1",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2025-02-14T11:41:14.065Z",
+            "modified": "2025-02-14T11:47:20.314Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"impact\":\"Közepes\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "8g9yUXqjMOq62-2o-XNXZYiUZ0RU0ByvA-4C37Y7nA64JK0zdjRN7RBIcJ-7IWu520Hx5khX6MCTqJNylz5WUA"
+}
